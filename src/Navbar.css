@@ -1,0 +1,125 @@
+.navBar__title a {
+  text-decoration: none;
+}
+
+.navBar__title h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  transition: 0.5s;
+  float: left;
+}
+
+.navBar__body {
+  position: sticky;
+  height: 8vh;
+  background-color: #0b132b;
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 1;
+}
+
+.navBar__drop {
+  display: flex;
+}
+
+.navBar__dropdown .navBar__dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+  cursor: pointer;
+}
+
+.navBar__dropbtn {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.navBar__dropbtn h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.navBar__dropbtn .MuiSvgIcon-root {
+  color: white;
+}
+
+.navBar a:hover,
+.navBar__dropdown:hover .navBar__dropbtn {
+  background-color: #06d6a0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #06d6a0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: 0.5s;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dropdown-content a:hover {
+  background-color: #caffbf;
+}
+
+.navBar__dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navBar__link {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.navBar__option {
+  display: flex;
+  text-align: center;
+}
+
+.navBar__optionNone {
+  display: none;
+}
+
+.navBar__option hr {
+  border: 1px solid white;
+}
+
+.navBar__optionLineOne {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.navBar__link:hover {
+  color: #06d6a0;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar__title {
+    display: none;
+    transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navBar {
+    width: 100vw;
+  }
+}

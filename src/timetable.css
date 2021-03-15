@@ -1,0 +1,120 @@
+p.back {
+  margin-top: 4ex;
+  margin-bottom: 5ex;
+}
+
+table {
+  text-align: center;
+  page-break-inside: avoid;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.ry88,
+.ry87,
+.ry58,
+.ry57,
+.ry56,
+.ry55,
+.ry44,
+.ry43,
+.ry41,
+.ry40,
+.ry32,
+.ry31,
+.ry21,
+.ry20,
+.ry11,
+.ry01,
+.rk93,
+.rk89,
+.rk86,
+.rk85,
+.rk84,
+.rk56,
+.rk53,
+.rk32,
+.rk24,
+.rk23,
+.rk20,
+.rk13,
+.rk12,
+.rk08,
+.rk07,
+.rk05,
+.rk01,
+.rk90,
+.rk28,
+.rp52,
+.re09,
+.ra72 {
+  padding: 20px;
+  background-color: #ecf8f8;
+  overflow: visible;
+}
+
+tbody tr th {
+  width: 100px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table.odd_table {
+  page-break-before: always;
+  margin-bottom: 100px;
+}
+
+table.even_table {
+  page-break-before: always;
+  margin-bottom: 100px;
+}
+
+table.detailed {
+  text-align: center;
+  border: 0px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* Some programs import "tfoot" incorrectly. So we use "tr.foot" instead of "tfoot". */
+
+td.detailed {
+  border: 1px dashed gray;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+th.xAxis {
+  width: 8em;
+  background-color: #ecf8f8;
+}
+
+th.yAxis {
+  height: 8ex;
+  background-color: #ecf8f8;
+}
+
+th,
+td {
+  background-color: #ecf8f8;
+}
+
+/* Style the teachers' free periods */
+
+div.DESCRIPTION {
+  text-align: left;
+  font-size: smaller;
+}
+
+button {
+  margin: 20px;
+  margin-left: 0;
+}

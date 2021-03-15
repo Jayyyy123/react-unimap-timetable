@@ -1,0 +1,70 @@
+.home {
+  background-color: #1c2541;
+  height: 92vh;
+  position: relative;
+}
+
+.home__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home__title h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  animation: fadeIn 1s ease-in-out;
+  width: 500px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .home__title h1 {
+    font-size: 60px;
+    transition: 0.5s;
+    width: 300px;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

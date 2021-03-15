@@ -1,0 +1,71 @@
+.login {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #ecf8f8;
+}
+
+.login__container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #b7e4c7;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #b7e4c7;
+}
+
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login__container > form > h5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+  outline: none;
+  border: 1px solid #b7e4c7;
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login__signInButton {
+  width: 100%;
+  height: 30px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #ffa69e;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.login__registerLink {
+  text-decoration: none;
+  color: blue;
+}
+
+.login__registerLink:hover {
+  transition: 0.5s;
+  text-decoration-line: underline;
+}
